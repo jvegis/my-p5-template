@@ -1,5 +1,6 @@
 import p5 from "p5";
 
+
 export const Sketch = (p: p5) => {
   let w = window.innerWidth;
   let h = window.innerHeight;
@@ -16,7 +17,7 @@ export const Sketch = (p: p5) => {
 
   p.draw = () => {
     p.background(0);
-    p.fill([255, 255, 255]);
+    p.fill([0, 255, 255]);
     p.circle(w / 2, h / 2, 50);
   };
 };
